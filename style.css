@@ -53,6 +53,32 @@ header{
 
 /* MAIN */
 
+.SizeScatola{
+    height: 556px;
+    background-size: cover;
+}
+
+.FontMarca{
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.FontProduct{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.FontPrice{
+    font-size: 12px;
+    color: red;
+    padding-bottom: 40px;
+}
+
+span{
+    color: black;
+    text-decoration: line-through;
+}
+
 #cardstructure{
     display: flex;
     justify-content: space-between;
@@ -66,8 +92,31 @@ header{
     width: 385px;
 }
 
-#card4{
-    position: absolute;
-    top: 60px;
+.opacity{
+    opacity: 0.5;
 
+}
+
+#ScatolaCard1{
+    background-image: url(./img/1b.webp);
+}
+
+#ScatolaCard2{
+    background-image: url(./img/2b.webp);
+}
+
+#ScatolaCard3{
+    background-image: url(./img/3b.webp);
+}
+
+#ScatolaCard4{
+    background-image: url(./img/4b.webp);
+}
+
+#ScatolaCard5{
+    background-image: url(./img/5b.webp);
+}
+
+#ScatolaCard6{
+    background-image: url(./img/6b.webp);
 }
