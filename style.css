@@ -23,6 +23,8 @@ body{
 .whitetext{
     color: white;
 }
+
+
 /* HEADER */
 
 header{
@@ -51,6 +53,21 @@ header{
 
 /* MAIN */
 
+#cardstructure{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    position: relative
+
+}
+
 .cardsize{
-    height: 50px;
+    width: 385px;
+}
+
+#card4{
+    position: absolute;
+    top: 60px;
+
 }
