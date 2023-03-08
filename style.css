@@ -1,0 +1,17 @@
+/* GENERALE */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 1920px;
+}
+
+/* HEADER */
+
+header{
+    background-color: orange;
+}
