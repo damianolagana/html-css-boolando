@@ -48,3 +48,9 @@ header{
     justify-content: space-between;
     width: 60px;
 }
+
+/* MAIN */
+
+.cardsize{
+    height: 50px;
+}
