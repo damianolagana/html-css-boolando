@@ -56,6 +56,15 @@ header{
 .SizeScatola{
     height: 556px;
     background-size: cover;
+    cursor: pointer;
+}
+
+.opacity{
+    opacity: 1;
+}
+
+.SizeScatola:hover{
+opacity: 0;
 }
 
 .FontMarca{
@@ -92,10 +101,6 @@ span{
     width: 385px;
 }
 
-.opacity{
-    opacity: 0.5;
-
-}
 
 #ScatolaCard1{
     background-image: url(./img/1b.webp);
@@ -119,4 +124,28 @@ span{
 
 #ScatolaCard6{
     background-image: url(./img/6b.webp);
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #1a1a1a;
+    height: 110px;
+}
+
+#ScatolaFooter{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.inline{
+    display: inline;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#BoolandoFooter{
+    padding-bottom: 10px;
 }
