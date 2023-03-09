@@ -130,7 +130,7 @@ span{
     cursor: pointer;
 }
 
-.addWishlist:hover{
+.addToWishlist:hover{
     color: red;
 }
 
