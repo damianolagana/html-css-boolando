@@ -59,13 +59,7 @@ header{
     cursor: pointer;
 }
 
-.opacity{
-    opacity: 1;
-}
 
-.SizeScatola:hover{
-opacity: 0;
-}
 
 .FontMarca{
     font-size: 12px;
@@ -93,7 +87,7 @@ span{
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 60px;
-    position: relative
+
 
 }
 
@@ -101,29 +95,21 @@ span{
     width: 385px;
 }
 
+.secondaryimg{
+    display: none;
 
-#ScatolaCard1{
-    background-image: url(./img/1b.webp);
 }
 
-#ScatolaCard2{
-    background-image: url(./img/2b.webp);
+.cardimage:hover .secondaryimg{
+    display: inline-block;
 }
 
-#ScatolaCard3{
-    background-image: url(./img/3b.webp);
+.cardimage:hover .primaryimg{
+    display: none;
 }
 
-#ScatolaCard4{
-    background-image: url(./img/4b.webp);
-}
-
-#ScatolaCard5{
-    background-image: url(./img/5b.webp);
-}
-
-#ScatolaCard6{
-    background-image: url(./img/6b.webp);
+.addToWishlist{
+    
 }
 
 /* FOOTER */
