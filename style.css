@@ -30,6 +30,10 @@ body{
 header{
     background-color: #ff6900;
     min-height: 80px;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
 }
 
 .nav{
@@ -52,6 +56,10 @@ header{
 }
 
 /* MAIN */
+
+main{
+    margin-top: 100px;
+}
 
 .SizeScatola{
     height: 556px;
@@ -95,6 +103,10 @@ span{
     width: 385px;
 }
 
+.cardimage{
+    position: relative;
+}
+
 .secondaryimg{
     display: none;
 
@@ -109,8 +121,19 @@ span{
 }
 
 .addToWishlist{
-    
+    position: absolute;
+    padding: 1em;
+    top: 1em;
+    right: 0px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
 }
+
+.addWishlist:hover{
+    color: red;
+}
+
 
 /* FOOTER */
 
